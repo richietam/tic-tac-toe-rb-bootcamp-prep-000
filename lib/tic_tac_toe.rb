@@ -118,7 +118,7 @@ def play(board)
     turn(board)
   end
   if won?(board)
-    puts "Congrats mate!"
+    puts "Congratulations #{winner(board)} mate!"
   else
     puts "T'was a draw mate"
   end

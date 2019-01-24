@@ -112,3 +112,15 @@ def winner(board)
      nil
   end
 end
+
+def play
+  until over?(board)
+    turn(board)
+  end
+  if won?(board)
+    puts "Congrats mate!"
+  else 
+    puts "T'was a draw mate"
+  end
+end
+

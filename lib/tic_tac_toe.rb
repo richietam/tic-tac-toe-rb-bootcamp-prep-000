@@ -119,8 +119,7 @@ def play
   end
   if won?(board)
     puts "Congrats mate!"
-  else 
+  else
     puts "T'was a draw mate"
   end
 end
-

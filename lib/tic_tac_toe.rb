@@ -107,8 +107,8 @@ end
 def winner(board)
   x = won?(board)
   if won?(board) == true
-    return x[0]
+    return board[x[0]]
   else
-    return nil
+     nil
   end
 end

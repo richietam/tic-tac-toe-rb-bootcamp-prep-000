@@ -109,6 +109,7 @@ def winner?(board)
   if won?(board) == true
     won?(board)
     win_combination.push(win_combination)
+    return x[0]
   else
     return nil
   end
